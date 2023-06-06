@@ -1,0 +1,104 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Rod6Zv5NUMyCPUzTpMMcA8Ib4LlDQL6w4g&usqp=CAU");
+    color: white;
+}
+@font-face {
+    font-family: Poke;
+    src: url(fonts/PokemonHollow.ttf);
+}
+
+h1{
+    font-family: Poke;
+    font-size: 3rem;
+    color: red;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.555);
+}
+
+.pokemon{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 15px;
+}
+
+.mov{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+}
+
+img{
+    width: 60px;
+    border-color: aliceblue;
+}
+
+
+#Chikorita{
+    background-color: rgb(17, 167, 30);
+    padding: 10px;
+}
+#Beedrill{
+    background-color: rgb(17, 77, 167);
+    padding: 10px;
+}
+#Psyduck{
+    background-color: rgb(167, 17, 160);
+    padding: 10px;
+}
+#Pidgeotto{
+    background-color: rgb(167, 17, 105);
+    padding: 10px;
+}
+#Sandslash{
+    background-color: rgb(167, 17, 17);
+    padding: 10px;
+}
+#Celebi{
+    background-color: rgb(167, 127, 17);
+    padding: 10px;
+}
+#Jigglypuff{
+    background-color: rgb(212, 209, 21);
+    padding: 10px;
+}
+#Dewgong{
+    background-color: rgb(27, 230, 8);
+    padding: 10px;
+}
+#Magneton{
+    background-color: rgb(17, 162, 167);
+    padding: 10px;
+}
+
+#rollout{
+    background-color: rgb(217, 255, 0);
+    padding: 10px;
+}
+#sandstr{
+    background-color: rgb(168, 211, 11);
+    padding: 10px;
+}
+#smog{
+    background-color: rgb(139, 131, 9);
+    padding: 10px;
+}
+#steelb{
+    background-color: rgb(119, 121, 9);
+    padding: 10px;
+}
+#supers{
+    background-color: rgb(66, 73, 5);
+    padding: 10px;
+}
+#zippyz{
+    background-color: rgb(66, 114, 12);
+    padding: 10px;
+}
+#spore{
+    background-color: rgb(85, 160, 16);
+    padding: 10px;
+}
+#surf{
+    background-color: rgb(133, 224, 29);
+    padding: 10px;
+}
