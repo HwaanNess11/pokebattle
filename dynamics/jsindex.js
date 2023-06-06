@@ -138,8 +138,8 @@ let surf = new movimiento("Surf", 70, 60, "agua", "especial");
 const hacerequipo = document.getElementById("equipo");
 let poseq1 = 0, poseq2 = 0, posgen=0;
 let equipo1=[,], equipo2=[,];
-let ent1 =new entrenador("Seungmin", "SC", 0, equipo1);
-let ent2 =new entrenador("Donghyun", "SC", 0, equipo2);
+let ent1 =new entrenador("Ash Ketchum", "SC", 0, equipo1);
+let ent2 =new entrenador("Diantha", "SC", 0, equipo2);
 
 const movimientos = document.getElementById("movimientos");
 let jugador=1, turno=1;
